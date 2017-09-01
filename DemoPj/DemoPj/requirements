@@ -1,0 +1,4 @@
+django==1.11.3
+uwsgi==2.0.15
+redis==2.10.5
+Fabric==1.13.2
