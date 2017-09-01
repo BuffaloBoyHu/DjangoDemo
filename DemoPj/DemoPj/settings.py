@@ -74,8 +74,13 @@ WSGI_APPLICATION = 'DemoPj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'DemoDB',
+        'USER': 'root',
+        'PASSWORD': '8756117hu',
+        'HOST': '47.94.0.190',
+        'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4', }
     }
 }
 
