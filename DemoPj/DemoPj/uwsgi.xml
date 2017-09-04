@@ -3,7 +3,7 @@
     <listen>100</listen>
     <master>true</master>
     <workers>8</workers>
-    <module>/root/Workspace/DjangoDemo/DemoPj/DemoPj/wsgi</module>
+    <module>wsgi</module>
     <pythonpath>/root/Workspace/DjangoDemo/DemoPj</pythonpath>
     <profiler>true</profiler>
     <memory-report>true</memory-report>
