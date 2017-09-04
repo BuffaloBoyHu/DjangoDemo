@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'DemoDB',
         'USER': 'root',
         'PASSWORD': '8756117hu',
-        'HOST': '47.94.0.190',
+        'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4', }
     }
