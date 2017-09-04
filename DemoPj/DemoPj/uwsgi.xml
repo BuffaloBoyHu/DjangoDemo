@@ -1,10 +1,10 @@
 <uwsgi>
-    <socket>:8001</socket>
+    <socket>127.0.0.1:9090</socket>
     <listen>100</listen>
     <master>true</master>
     <workers>8</workers>
     <module>/root/Workspace/DjangoDemo/DemoPj/DemoPj/wsgi</module>
-    <pythonpath>/root/Workspace/DjangoDemo</pythonpath>
+    <pythonpath>/root/Workspace/DjangoDemo/DemoPj</pythonpath>
     <profiler>true</profiler>
     <memory-report>true</memory-report>
     <enable-threads>true</enable-threads>
